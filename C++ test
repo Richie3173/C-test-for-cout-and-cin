@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a(1);
+	int b = 13;
+
+	if (b > a)
+	{
+		cout << "Hello Richard" << endl;
+	}
+	if (a > b)
+	{
+		cout << "Go away Richard" << endl;
+	}
+
+
+	string movieName, rating;
+
+	cout << "What is your favorite movie?" << endl;
+	cin >> movieName;
+
+	cout << "What would you rate that movie?" << endl;
+	cin >> rating;
+
+	cout << "So you like the" << " " << movieName << " " << "movie" << " " <<"and you rated it out of" << rating;
+
+	system("pause");
